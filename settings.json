@@ -1,0 +1,42 @@
+{
+    "description": "Keys are based from process.platform values. See https://nodejs.org/api/process.html#process_process_platform.",
+    "outputs": {
+        "outputDir": "outputs/",
+        "outputName": "dev_sysinfo",
+        "text": true,
+        "json": true
+    },
+    "win32":{
+        "processor":[
+            "cmd /C echo %PROCESSOR_ARCHITECTURE%",
+            "cmd /C echo %NUMBER_OF_PROCESSORS%"
+        ],
+        "path":[
+            "cmd /C echo %path%"
+        ],
+        "nodejs": [
+            "node --version",
+            "nvm list"
+        ],
+        "python":[
+            "python --version",
+            "pip freeze"
+        ],
+        "choco":[
+            "cmd /C echo %ChocolateyInstall%"
+        ],
+        "android":[
+            "cmd /C echo %ANDROID_SDK_ROOT%",
+            "cmd /C echo %GRADLE_USER_HOME%"
+        ],
+        "java":[
+            "cmd /C echo %JAVA_HOME%"
+        ]
+    },
+    "aix":{},
+    "sunos":{},
+    "openbsd":{},
+    "linux":{},
+    "freebsd":{},
+    "darwin":{}
+}

@@ -1,0 +1,11 @@
+{
+  "name": "dev_sysinfo",
+  "version": "1.0.0",
+  "description": "Get Development system information for easier system information during development/bug discourse. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lourence Epino",
+  "license": "ISC"
+}
