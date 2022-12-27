@@ -2,10 +2,14 @@
   "name": "dev_sysinfo",
   "version": "1.0.0",
   "description": "Get Development system information for easier system information during development/bug discourse. ",
-  "main": "index.js",
+  "main": "./bin/dev_sysinfo.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "dev_sysinfo": "./bin/dev_sysinfo.js"
+  },
+  "preferGlobal": true,
   "author": "Lourence Epino",
   "license": "ISC",
   "repository": {

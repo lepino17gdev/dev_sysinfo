@@ -1,7 +1,7 @@
 {
     "description": "Keys are based from process.platform values. See https://nodejs.org/api/process.html#process_process_platform.",
     "outputs": {
-        "outputDir": "outputs/",
+        "outputDir": "dev_sysinfo_outputs/",
         "outputName": "dev_sysinfo",
         "text": true,
         "json": true
