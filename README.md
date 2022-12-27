@@ -18,8 +18,6 @@ Unix: `/usr/local/lib/node/dev_sysinfo` or `/usr/local/lib/node_modules/dev_sysi
 Run the package like this: `dev_sysinfo`.
 After running, this will open the output folder that contains a `.txt` and `.json` file that contains your system information.
 
-**Remove useless information. If you are asking about `python` remove information about `nodejs`.**
-
 ## Configuration
 
 ### settings.json
@@ -110,3 +108,5 @@ pip freeze
 }
 ...
 ```
+
+**Remove useless information. If you are asking about `python` remove information about `nodejs`.**

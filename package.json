@@ -4,7 +4,8 @@
   "description": "Get Development system information for easier system information during development/bug discourse. ",
   "main": "./bin/dev_sysinfo.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "git push origin && npm publish"
   },
   "bin": {
     "dev_sysinfo": "./bin/dev_sysinfo.js"
