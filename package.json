@@ -1,6 +1,6 @@
 {
   "name": "dev_sysinfo",
-  "version": "1.0.1",
+  "version": "2.0.1",
   "description": "Get Development system information for easier system information during development/bug discourse. ",
   "main": "./bin/dev_sysinfo.js",
   "scripts": {
